@@ -1,0 +1,18 @@
+{
+  "name": "webdriveriotest",
+  "version": "1.0.0",
+  "description": "Sample project for SEB assignment",
+  "main": "index.js",
+  "scripts": {
+    "wdio": "wdio run wdio.conf.js"
+  },
+  "dependencies": {
+    "@wdio/local-runner": "^8.27.2",
+    "@wdio/mocha-framework": "^8.27.2",
+    "@wdio/spec-reporter": "^8.27.2",
+    "webdriverio": "^8.27.2"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^8.27.2"
+  }
+}
