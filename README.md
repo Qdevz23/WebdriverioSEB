@@ -9,12 +9,12 @@ This repository contains automated test scenarios for a login functionality usin
 - Node.js v 20.x.x installed
 - A Suitable IDE (like Visual Studio Code) for working with a nodeJS project
 
-  # Dependencies
+### Dependencies
 
-  - @wdio/local-runner
-  - @wdio/mocha-framework
-  - @wdio/spec-reporter
-  - webdriverio
+- @wdio/local-runner
+- @wdio/mocha-framework
+- @wdio/spec-reporter
+- webdriverio
 
 ### Installing
 
