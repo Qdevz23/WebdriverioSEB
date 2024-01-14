@@ -11,10 +11,6 @@ describe("Login page", function () {
   });
 
   it("Navigate to page", async () => {
-    //await browser.url("https://www.aftonbladet.se");
-    //https://github.com/ns-mnawaz/webdriverio-tests/blob/master/wdio.conf.js
-    //https://www.youtube.com/watch?v=6g5iz4tS3no
-    //await browser.url("practice-test-login/");
     await loginPage.verifyHeader(headerTitle);
     await loginPage.verifyFormIsExisting();
   });

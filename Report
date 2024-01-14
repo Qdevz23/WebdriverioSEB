@@ -1,0 +1,14 @@
+Approach
+
+I searched for a simple login page to apply my testcases on. I found this page for "https://practicetestautomation.com/practice-test-login/".
+The page is designed for automated testcases. My approach is to make the testcode easy to ready by having structure and selecting simple names for the methods and variables.
+
+Challenges
+
+I had in the start some issues with the config file. I could not execute the testcases due to browser not found
+I added some arguments inside the capabilities then in some way it worked. I didnt not have the time to investigate whats the purpose
+for those args. i would definitly investigate it if I had more time.
+
+Improvement
+
+The structure could be even better by for example break out the selectors in its own file. Adding a fancy html report would be also nice.
