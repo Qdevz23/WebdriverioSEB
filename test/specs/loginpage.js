@@ -15,19 +15,6 @@ describe("Login page", function () {
     await loginPage.verifyFormIsExisting();
   });
 
-  xit("Navigate to page", async () => {
-    await startPageConfig.clickUserDropDown();
-    await browser.pause(5000);
-    let currentLang = await startPageConfig.getCurrentlanguageSelection();
-    expect(currentLang).toBe("Svenska");
-    await startPageConfig.changeLanguageTo("English");
-    currentLang = await startPageConfig.getCurrentlanguageSelection();
-    expect(currentLang).toBe("English");
-    await startPageConfig.changeLanguageTo("Svenska");
-    currentLang = await startPageConfig.getCurrentlanguageSelection();
-    expect(currentLang).toBe("Svenska");
-  });
-
   it("Login with valid credentials", async () => {
     //await browser.url("practice-test-login/");
     await loginPage.login(
