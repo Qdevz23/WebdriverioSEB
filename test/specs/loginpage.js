@@ -1,4 +1,3 @@
-//const startPageConfig = require("./start-page-config");
 const loginPage = require("../pages/login");
 const credentials = require("../data/credentials");
 const headerTitle = "Test login";
