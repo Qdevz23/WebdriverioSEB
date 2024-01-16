@@ -16,7 +16,6 @@ describe("Login page", function () {
   });
 
   it("Login with valid credentials", async () => {
-    //await browser.url("practice-test-login/");
     await loginPage.login(
       credentials.validCred.userName,
       credentials.validCred.password
@@ -27,7 +26,6 @@ describe("Login page", function () {
   });
 
   it("Login with invalid username", async () => {
-    //await browser.url("practice-test-login/");
     await loginPage.login(
       credentials.invalidUsername.userName,
       credentials.invalidUsername.password
@@ -39,7 +37,6 @@ describe("Login page", function () {
   });
 
   it("Login with invalid password", async () => {
-    //await browser.url("practice-test-login/");
     await loginPage.login(
       credentials.invalidPassword.userName,
       credentials.invalidPassword.password
